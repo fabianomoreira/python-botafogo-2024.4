@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML + CSS</title>
+</head>
+<body>
+    <form action="confirma.html" method="post">
+        <fieldset>
+            <font color="red" size="30" face="verdana"><b>Nome:</b></font><br>
+            <input required maxlength="10" size="10" type="text" name="nome"><br>
+            &copy;Sobrenome:&amp;<br>
+            <input value="Silva" placeholder="Digite aqui..." type="text" name="sobrenome"><br>
+        </fieldset>
+        <input type="radio" name="genero" value="masculino">Masculino<br>
+        <input type="radio" name="genero" value="feminino">Feminino<br>
+        <input type="radio" name="genero" value="outro" checked>Outro<br>
+        <fieldset>
+            <legend>Escolha o idioma</legend>
+            <input type="checkbox" name="tipo1" value="ingles">Ingles<br>
+            <input type="checkbox" name="tipo2" value="espanhol">Espanhol<br>
+            <input type="checkbox" name="tipo3" value="frances">Francês<br>
+            <input type="checkbox" name="tipo4" value="alemao">Alemão<br>        
+        </fieldset>
+        <select name="carros">
+            <option value="fiesta">Fiesta</option>
+            <option value="polo">Polo</option>
+            <option value="kicks">Kicks</option>
+            <option value="hb20">HB20</option>            
+        </select><br>
+        <textarea rows="20" cols="100" name="exemplo">
+        </textarea><br>
+        <input type="submit" value="Enviar Dados">
+        <input type="reset" value="Limpar">
+    </form>
+</body>
+</html>
