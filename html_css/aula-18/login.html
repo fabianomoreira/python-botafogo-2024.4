@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <style>
+        .principal{
+            background-color: gray;
+            margin: 300px 450px;
+            padding: 50px;
+            border-radius: 20px;
+        }
+        .barra{
+            margin-top: 30px;
+        }
+        .titulo{
+            margin-bottom: 30px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+            font-size: 30px;
+            color: white;
+        }
+        .entrada{
+            font-size: 20px;
+            padding: 5px;
+        }
+        .botao{
+            border-radius: 5px;
+            color: white;
+            background-color: black;
+            text-decoration: none;
+            padding: 10px 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="principal">
+        <form action="#">
+            <div class="titulo">
+                LOGIN
+            </div>
+            <div class="entrada">
+                <input type="text" id="txtUsuario" name="txtUsuario" placeholder="Usuário">
+            </div>
+            <div class="entrada">
+                <input type="password" id="txtSenha" name="txtSenha" placeholder="Senha">
+            </div>
+            <div class="barra">
+                <input class="botao" type="submit" value="Entrar">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

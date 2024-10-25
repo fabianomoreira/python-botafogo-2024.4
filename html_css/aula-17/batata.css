@@ -1,0 +1,12 @@
+.fundo {
+    background-color: black;
+}
+.texto{
+    color: white;
+}
+.grande{
+    font-size: 60px;
+}
+.medio{
+    font-size: 30px;
+}
